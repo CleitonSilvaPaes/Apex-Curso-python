@@ -1,8 +1,9 @@
-n = -1
 
-while(n<=0 || n >=10){
-    n = parseFloat(prompt("Digite um numero: "))
-    if (n<=0 || n >=10){
-        alert("Numero invalido")
+while(true)
+{
+    n1 = parseFloat(prompt("Digite um numero: "))
+    if (n1 >= 0 && n1 <= 10)
+    {
+        break
     }
 }
