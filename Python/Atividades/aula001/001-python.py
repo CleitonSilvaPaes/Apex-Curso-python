@@ -1,0 +1,5 @@
+# print('Ola, Mundo!')
+# print('Hello, World!')
+print('=' * 20, 'Sistema de Cadastro', '=' * 20)
+nome = input()
+print(f'Olá, {nome}, seja bem vindo ao sistema de cadastro!')
